@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: lightblue;
+    flex-direction: column;
+}
+.head a{
+    float: right;
+    text-align: center;
+    padding: 10px 50px;
+}
+.head button{
+background-color: blueviolet;
+}
+
+.button button {
+    margin-right: 10px;
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social_icons {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icons ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.icons li {
+    margin-right: 20px;
+}
+
+.share_button button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main_image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#paragraph {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.more_info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer img {
+    width: 200px;
+    height: 50px;
+}
